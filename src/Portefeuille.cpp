@@ -11,7 +11,7 @@
  * Created on November 30, 2016, 6:02 PM
  */
 
-#include "Portefeuille.hpp.h"
+#include "Portefeuille.hpp"
 
 Portefeuille::Portefeuille() {
 }

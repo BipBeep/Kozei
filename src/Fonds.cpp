@@ -12,6 +12,7 @@
  */
 
 #include <cstdlib>
+#include "Couverture.hpp"
 
 using namespace std;
 
@@ -19,6 +20,11 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+    
+    PnlMat * mat = pnl_mat_create(1,1);
+    PnlVect * vect = pnl_vect_create(1);
+    Couverture* couv = new Couverture();
+    couv->delta(mat,0,vect);
 
     return 0;
 }
