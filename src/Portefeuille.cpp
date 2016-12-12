@@ -12,8 +12,10 @@
  */
 
 #include "Portefeuille.hpp"
+#include "Kozei.hpp"
 
 Portefeuille::Portefeuille() {
+    this->produits = new Kozei();
 }
 
 Portefeuille::Portefeuille(const Portefeuille& orig) {
@@ -22,3 +24,6 @@ Portefeuille::Portefeuille(const Portefeuille& orig) {
 Portefeuille::~Portefeuille() {
 }
 
+void Portefeuille::price(double& prix) {
+    
+}
